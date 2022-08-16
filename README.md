@@ -1,4 +1,5 @@
 kubectl create ns monitoring
+
  kubectl create ns demo
  kubectl create ns sock-shop
  helm upgrade --install loki grafana/loki-stack -n monitoring --set grafana.enabled=true
